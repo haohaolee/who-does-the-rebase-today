@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "engines": {
-    "node": "5.9.1"
+    "node": "6.2.1"
   },
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "start": "node index.js"
   },
   "author": "haohaolee",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "koa": "^2.0.0",
     "moment": "^2.13.0"
@@ -22,7 +22,6 @@
     "babel-polyfill": "^6.9.1",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-3": "^6.11.0",
-    "nodemon": "^1.9.2",
     "webpack": "^1.13.1"
   }
 }
