@@ -11,6 +11,7 @@ const arrangement = [
 
 const start = moment("2016-06-26 00:00 +0800", "YYYY-MM-DD HH:mm Z");
 
+
 app.use(async (ctx, next) => {
   const start = new Date();
   await next();
@@ -38,5 +39,7 @@ app.use(ctx => {
   }
 });
 
-app.listen(3000);
+
+const port = process.env.PORT || 3000;
+app.listen(port);
 
