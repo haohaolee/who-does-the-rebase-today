@@ -1,0 +1,23 @@
+{
+  "name": "who-does-the-rebase-today",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon"
+  },
+  "author": "haohaolee",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.0.0",
+    "moment": "^2.13.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-3": "^6.11.0",
+    "nodemon": "^1.9.2"
+  }
+}
