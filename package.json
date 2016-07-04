@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel src -d lib && node index.js"
+    "start": "./node_modules/.bin/babel src -d lib && node index.js"
   },
   "author": "haohaolee",
   "license": "MIT",
