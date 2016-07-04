@@ -8,16 +8,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/babel src -d lib && node index.js"
+    "start": "babel src -d lib && node index.js"
   },
   "author": "haohaolee",
   "license": "MIT",
   "dependencies": {
+    "babel-cli": "^6.10.1",
     "koa": "^2.0.0",
     "moment": "^2.13.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.10.1",
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
     "babel-polyfill": "^6.9.1",
